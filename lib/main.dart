@@ -36,14 +36,14 @@ class MyApp extends StatelessWidget {
                   Expanded(
                     child: ListView(
                       scrollDirection: Axis.horizontal,
-                      padding: EdgeInsets.all(8.0),
+                      padding: EdgeInsets.all(10.0),
                       children: <Widget>[
                         Container(
                           width: width,
                           decoration: BoxDecoration(
                             color: Colors.white,
                             boxShadow: [
-                              BoxShadow(color: Colors.grey, blurRadius: 15)
+                              BoxShadow(color: Colors.grey, blurRadius: 5)
                             ],
                             borderRadius: BorderRadius.circular(1.0),
 
@@ -76,7 +76,7 @@ class MyApp extends StatelessWidget {
                           decoration: BoxDecoration(
                             color: Colors.white,
                             boxShadow: [
-                              BoxShadow(color: Colors.grey, blurRadius: 15)
+                              BoxShadow(color: Colors.grey, blurRadius: 5)
                             ],
                             borderRadius: BorderRadius.circular(1.0),
 
@@ -110,7 +110,7 @@ class MyApp extends StatelessWidget {
                           decoration: BoxDecoration(
                             color: Colors.white,
                             boxShadow: [
-                              BoxShadow(color: Colors.grey, blurRadius: 15)
+                              BoxShadow(color: Colors.grey, blurRadius: 5)
                             ],
                             borderRadius: BorderRadius.circular(1.0),
 
@@ -144,7 +144,7 @@ class MyApp extends StatelessWidget {
                           decoration: BoxDecoration(
                             color: Colors.white,
                             boxShadow: [
-                              BoxShadow(color: Colors.grey, blurRadius: 15)
+                              BoxShadow(color: Colors.grey, blurRadius: 5)
                             ],
                             borderRadius: BorderRadius.circular(1.0),
 
@@ -178,7 +178,7 @@ class MyApp extends StatelessWidget {
                           decoration: BoxDecoration(
                             color: Colors.white,
                             boxShadow: [
-                              BoxShadow(color: Colors.grey, blurRadius: 15)
+                              BoxShadow(color: Colors.grey, blurRadius: 5)
                             ],
                             borderRadius: BorderRadius.circular(1.0),
                           ),
